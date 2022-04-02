@@ -1,0 +1,15 @@
+public class Student {
+    public static void main(String [] args)
+       {  
+ 
+           String name=args[0];
+           String course=args[1];
+           int sem=Integer.parseInt(args[2]);
+           int roll=Integer.parseInt(args[3]);
+           System.out.println("Name:"+name);
+           System.out.println("course:"+course);
+           System.out.println("semester:"+ sem);
+           System.out.println("Roll no:"+roll);
+      }
+
+}
